@@ -1,0 +1,35 @@
+@media (max-width: 450px) {
+   .second-part {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 10px;
+   }
+
+   .second-part .despre {
+       width: 90%;
+       margin-bottom: 10px;
+   }
+
+   .feedback, .raindrops {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 10px;
+   }
+
+   .feedback .review, .raindrops .drop {
+       width: 90%;
+       margin-bottom: 10px;
+       font-size: 0.9em; /* Adjust font size for smaller text */
+       padding: 10px; /* Add some padding for better spacing */
+   }
+
+   .feedback .review {
+       padding: 5px; /* Reduce padding for a more compact look */
+   }
+
+   .raindrops .drop {
+       padding: 5px; /* Reduce padding for a more compact look */
+   }
+}
